@@ -1,0 +1,36 @@
+{
+  "bikes": [
+    {
+      "id": 1,
+      "name": "Panther",
+      "type": "MTB",
+      "price": 200.0,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "img": "https://picsum.photos/350/256"
+    },
+    {
+      "id": 2,
+      "name": "Hawk",
+      "type": "Route",
+      "price": 199.99,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "img": "https://picsum.photos/350/256"
+    },
+    {
+      "id": 3,
+      "name": "Grizzlie",
+      "type": "MTB",
+      "price": 300.0,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "img": "https://picsum.photos/350/256"
+    },
+    {
+      "id": 4,
+      "name": "K9",
+      "type": "Street",
+      "price": 198.99,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "img": "https://picsum.photos/350/256"
+    }
+  ]
+}
