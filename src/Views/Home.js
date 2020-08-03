@@ -1,6 +1,7 @@
 import React from "react";
 import useAxiosGet from "../Hooks/HttpRequest";
 import Spinner from "../Components/Spinner";
+import BikeCard from "../Components/BikeCard";
 
 function Home() {
   const url = "http://localhost:3001/bikes";
@@ -15,7 +16,11 @@ function Home() {
     content = <Spinner />;
   }
   if (bikes.data) {
-    content = bikes.data.map((bike, key) => <div>{bike.name}</div>);
+    content = bikes.data.map((bike, key) => (
+      <div>
+        <BikeCard bike={bike} />
+      </div>
+    ));
   }
 
   return <div>{content}</div>;
