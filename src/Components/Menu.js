@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { useTransition, animated } from "react-spring";
+import MenuElements from "./MenuElements";
 
 function Menu() {
   // const showMenu and setter we are using useState hook with a false default value
@@ -50,7 +51,7 @@ function Menu() {
               style={props}
               className="fixed bg-white top-0 left-0 w-4/5 h-full z-50 shadow p-3"
             >
-              MenuElements
+              <MenuElements closeMenu={() => setShowMenu(false)} />
             </animated.div>
           )
       )}
