@@ -24,7 +24,11 @@ function Bike() {
       <div>
         <h1 className="text-2xl font-bold mb-3">{bike.data.name}</h1>
         <div>
-          <img src={bike.data.img} alt={bike.data.name} />
+          <img
+            className="w-full h-64 bg-blue bg-cover"
+            src={bike.data.img}
+            alt={bike.data.name}
+          />
         </div>
         <div className="font-bold text-xl mb-3">$ {bike.data.price}</div>
         <div>{bike.data.description}</div>
