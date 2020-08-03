@@ -4,10 +4,11 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./Views/Home";
 import About from "./Views/About";
 import Bike from "./Views/Bike";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
-    <div>
+    <div className="relative pb-10 min-h-screen">
       <Router>
         <Header />
         <div className="p-3">
@@ -23,6 +24,7 @@ function App() {
             </Route>
           </Switch>
         </div>
+        <Footer />
       </Router>
     </div>
   );
