@@ -17,7 +17,8 @@ function Home() {
   }
   if (bikes.data) {
     content = bikes.data.map((bike, key) => (
-      <div>
+      <div key={key}>
+        {/* We add a prop key to avoid  Warning: Each child in a list should have a unique "key" prop.*/}
         <BikeCard bike={bike} />
       </div>
     ));
